@@ -76,7 +76,6 @@ label {
     transition: 0.3s;
     margin-left: 1410px;
     margin-top: -76px;
-
 }
 
 label::after {
@@ -94,12 +93,6 @@ label::after {
     margin-top: -9px;
 }
 
-/* div int{
-    width: 0;
-    height: 0;
-    margin-left:-100px ;
-    visibility: hidden;
-} */
 div input:checked+label {
     background: #4ed262;
 }
@@ -112,7 +105,6 @@ div input:checked+label::after {
 
 label:active::after {
     width: 50px;
-
 }
 
 .background {
@@ -134,33 +126,6 @@ div input:checked+label+.background {
     margin-top: -26px;
     position: absolute;
     z-index: 100;
-}
-
-.popular-city {
-    width: 90px;
-    height: 70px;
-    background-color: #3a3a3aa5;
-}
-
-.t1 {
-    margin-left: 3px;
-    margin-top: -16px;
-    color: #f1ff27d0;
-    margin-bottom: 1px;
-}
-
-.t2 {
-    margin-left: 6px;
-    margin-top: -11px;
-    color: #f1ff27d0;
-}
-
-.popular-city-details {
-    width: 1428px;
-    height: 70px;
-    background-color: #aaa8a8;
-    margin-left: 91px;
-    margin-top: -164px;
 }
 
 .pricing {
@@ -186,9 +151,6 @@ div input:checked+label+.background {
     margin-top: 332px;
 }
 
-
-
-
 /* ///////////////////////////////////////// */
 
 .clockeka {
@@ -208,14 +170,14 @@ div input:checked+label+.background {
 
 .clock {
     width: 213px;
-    height: 64px;
-    background: rgba(158, 2, 158, 0);
-    border-radius: 11px;
+    height: 98px;
+    background: rgba(122, 119, 119, 0.71);
+    border-radius: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(140px);
-    margin-top: -189px;
+    margin-top: -191px;
     margin-left: 797px;
 }
 
@@ -225,8 +187,8 @@ div input:checked+label+.background {
     display: inline-block;
     text-align: center;
     position: relative;
-    color: #655f5f;
-    margin-top: -10px;
+    color: #ffffff;
+    margin-top: -43px;
 }
 
 .clock span::after {
@@ -254,8 +216,8 @@ div input:checked+label+.background {
 
 .dd-mm-yyyy {
     font-size: 25px;
-    color: #655f5f;
-    margin-top: -2px;
+    color: #ffffff;
+    margin-top: -42px;
     margin-left: 836px;
     position: absolute;
 }
@@ -274,56 +236,46 @@ div input:checked+label+.background {
     padding: 13px 0px 28px 76px;
 }
 
-.weather1 {
-    transform: scale(1.09);
-    transition: transform 300ms ease-in;
+.weather1{  
     width: 219px;
     height: 280px;
     margin-left: 83px;
     margin-top: 170px;
     background-color: #aaa8a892;
+
 }
+
 .weather2 {
-    transform: scale(1.09);
-    transition: transform 300ms ease-in;
     width: 219px;
     height: 280px;
     margin-left: 361px;
     margin-top: -280px;
     background-color: #aaa8a892;
 }
+
 .weather3 {
-    transform: scale(1.09);
-    transition: transform 300ms ease-in;
     width: 219px;
     height: 280px;
     margin-left: 645px;
     margin-top: -280px;
     background-color: #aaa8a892;
 }
+
 .weather4 {
-    transform: scale(1.09);
-    transition: transform 300ms ease-in;
     width: 219px;
     height: 280px;
     margin-left: 932px;
     margin-top: -280px;
     background-color: #aaa8a892;
 }
+
 .weather5 {
-    transform: scale(1.09);
-    transition: transform 300ms ease-in;
     width: 219px;
     height: 280px;
     margin-left: 1217px;
     margin-top: -280px;
     background-color: #aaa8a892;
 }
-
-
-
-
-
 
 .location-search{
     margin-top: 12px;
@@ -332,39 +284,73 @@ div input:checked+label+.background {
     font-size: 52px;
     color: #453939;
 }
+
 /* //////////////////////////////////////////// */
+
 .content2{
     position: relative;
     margin-left: 351px;
     margin-bottom: -392px;
     margin-top: 324px;
 }
+
 .content2 h2{
     position: absolute;
     transform : translate(-10%,-10%);
     font-size: 8em;
 }
+
 .content2 h2:nth-child(1){
     color: transparent;
     -webkit-text-stroke: 2px #fb874e;
 }
+
 .content2 h2:nth-child(2){
     color: #1689ba;
     animation: animate 1s ease-in-out infinite;
 }
+
 @keyframes animate{
 
     0%,100%{
         clip-path: polygon(0 40%, 13% 36%, 29% 35%, 41% 43%, 53% 49%, 66% 54%, 80% 51%, 93% 46%, 100% 43%, 100% 100%, 0% 100%, );   
-    
-    }
-
+     }
     50%{
-clip-path: polygon(0 100%, 99% 99%, 53% 100%);    
+        clip-path: polygon(0 100%, 99% 99%, 53% 100%);    
     }
 }
+/* ///////////////////////////////// */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    height: 18%;
+}
 
-
+footer a {
+    color: #fff; /* Style links within the footer */
+}
+.fbimg{
+    margin-top: 34px;
+    /* margin-left: -21px;
+    margin-right: 10px; */
+    width: 38px;
+    height: 38px;
+}
+.instaimg{
+    margin-top: 34px;
+    margin-right: 35px;
+    margin-left: 35px;
+    width: 38px;
+    height: 38px;
+}
+.twitterimg{
+    margin-top: 34px;
+    margin-right: 39px;
+    width: 38px;
+    height: 38px;
+}
 
 
 
