@@ -387,6 +387,12 @@ footer a {
     color: #4ed262;
     font-size: 46px;
 }
+.country {
+    margin-top: -381px;
+    margin-left: 20px;
+    color: #fff;
+}
+
 .temptxt {
     position: absolute;
     margin-left: 243px;
@@ -400,7 +406,7 @@ footer a {
 }
 .windl {
     position: relative;
-    margin-left: 123px;
+    margin-left: 127px;
     margin-top: 255px;
     color: #ffffff;
 }
@@ -445,7 +451,22 @@ footer a {
     margin-top: 5px;
     color: #d8860b;
 }
-
+.windpng {
+    width: 44px;
+    height: 40px;
+    margin-left: 23px;
+    margin-top: 5px;
+}
+.c{
+    text-align: center;
+    margin-top: 5px;
+    color: #1689ba;
+}
+.kph {
+    margin-left: 72px;
+    margin-top: -39px;
+    color: #1689ba;
+}
 
 
 

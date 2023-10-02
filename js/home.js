@@ -21,6 +21,11 @@ let city=$("#city");
 let humidity =$("#humiditytxt");
 let wind=$("#windtxtt");
 let province=$("#province");
+let tdyImg=$("#tdyImg");
+let tdyC=$("#tdyC");
+let tdyF=$("#tdyF");
+let tdywind=$("#tdyWind");
+let country=$("#country");
 
 
 function serchLocation(location){
@@ -31,7 +36,7 @@ function serchLocation(location){
         method : "GET",
         url :`https://api.weatherapi.com/v1/current.json?key=123d678a6bd74c81b3f165334230110&q=${location}`,
         success :(data)=>{
-            console.log(data);
+            //console.log(data);
             icon.attr("src",data.current.condition.icon);
             temp.text(data.current.temp_c+"°C");
             city.text(data.location.name);
@@ -39,6 +44,11 @@ function serchLocation(location){
             wind.text(data.current.wind_kph+"  KP/H");
             cloud.text(data.current.condition.text);
             province.text(data.location.region);
+            tdyImg.attr("src",data.current.condition.icon);
+            tdyC.text(data.current.temp_c+"°C");
+            tdyF.text(data.current.temp_f+"°C");
+            tdywind.text(data.current.wind_kph+"  KP/H");
+            country.text(data.location.tz_id);
         }
     })
 }
