@@ -10,7 +10,7 @@
 
 
 
-    <title>Live Weather</title>
+    <title>Live Weather | Weather Explorer</title>
     <style id="hi">
       body {
       background-image: url(Assets/light\ background.jpg);  
@@ -42,8 +42,8 @@
           </div> 
 
             <form class="d-flex">
-              <input id="navsearch" class="navsearchinput" type="search" placeholder="&#128269 Search Location Here" aria-label="Search">
-              <button class="searchbtn">Search</button>
+              <input id="inputSearchTxt" class="navsearchinput" type="search" placeholder="&#128269 Search Location Here" aria-label="Search">
+              <button  class="searchbtn"  id="btn-search">Search</button>
               <p class="lightmodetxt">light & dark</p>
             
           </div>
@@ -93,7 +93,23 @@
 
 
     <div class="divweatherdetails">
-   
+      
+      <img id="icon" class="weather-image1" src="" alt="weather-image">
+      
+      <h3 class="templ">Temperature : </h3>
+      <h3 class="temptxt" id="tempText">26 C</h2>
+
+      <h3 class="humidityl">Humidity : </h3>
+      <h3 class="humidity" id="humiditytxt">36%</h3>
+
+      <h3 class="windl">Wind : </h3>
+      <h3 class="wind" id="windtxt">5 kmp</h3>
+
+      <h2 id="locationName">Western</h2>
+      
+      <h2 id="country">Sri Lanka</h2>
+      
+      <h2 class="citytext" id="city">Galle</h2>
     </div>
 
 
@@ -135,66 +151,10 @@
 
 
 
-    <div >
-    <main class="pricing">
-      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Free</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Pro</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>20 users included</li>
-                <li>10 GB of storage</li>
-                <li>Priority email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm border-primary">
-            <div class="card-header py-3 text-white bg-primary border-primary">
-              <h4 class="my-0 fw-normal">Enterprise</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-</div>
+    
 
 
-<footer>
+<footer class="footer">
   <p>&copy; 2023 Weather Explorer</p>
   <p>Contact : +94775685214</p>
   <p>Email : weatherexplorer@gmail.com</p>
@@ -208,7 +168,7 @@
   
 </footer>
 
-
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="crossorigin="anonymous"></script> 
     <script src="js/home.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/date.js"></script>

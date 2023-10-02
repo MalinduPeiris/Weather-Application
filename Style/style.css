@@ -145,10 +145,11 @@ div input:checked+label+.background {
 .divweatherdetails {
     width: 544px;
     height: 587px;
-    background-color: #aaa8a8;
+    background-color: #ffffff70;
     margin-left: 86px;
     margin-bottom: -716px;
     margin-top: 332px;
+    border-radius: 28px;
 }
 
 /* ///////////////////////////////////////// */
@@ -242,6 +243,7 @@ div input:checked+label+.background {
     margin-left: 83px;
     margin-top: 170px;
     background-color: #aaa8a892;
+    margin-bottom: 300px;
 
 }
 
@@ -249,32 +251,36 @@ div input:checked+label+.background {
     width: 219px;
     height: 280px;
     margin-left: 361px;
-    margin-top: -280px;
+    margin-top: -580px;
     background-color: #aaa8a892;
+    margin-bottom: -561px;
 }
 
 .weather3 {
     width: 219px;
     height: 280px;
     margin-left: 645px;
-    margin-top: -280px;
+    margin-top: 284px;
     background-color: #aaa8a892;
+    margin-bottom: 300px;
 }
 
 .weather4 {
     width: 219px;
     height: 280px;
     margin-left: 932px;
-    margin-top: -280px;
+    margin-top: -579px;
     background-color: #aaa8a892;
+    margin-bottom: 300px;
 }
 
 .weather5 {
     width: 219px;
     height: 280px;
     margin-left: 1217px;
-    margin-top: -280px;
+    margin-top: -580px;
     background-color: #aaa8a892;
+    margin-bottom: 591px;
 }
 
 .location-search{
@@ -351,9 +357,31 @@ footer a {
     width: 38px;
     height: 38px;
 }
-
-
-
+.weather-image1 {
+    margin-left: 229px;
+    margin-top: 32px;
+    width: 341px;
+    height: 368px;
+}
+.footer {
+    margin-top: 30px;
+}
+.locationName {
+    margin-top: -20px;
+    margin-left: 10px;
+    color: #27ff68;
+}
+.citytext {
+    margin-top: -532px;
+    margin-left: 20px;
+    color: #4ed262;
+    font-size: 63px;
+}
+.temptxt {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 40px;
+}
 
 
 
