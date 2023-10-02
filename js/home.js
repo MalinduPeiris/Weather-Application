@@ -27,7 +27,7 @@ function serchLocation(location){
 
     $.ajax({
         method : "GET",
-        url :`http://api.weatherapi.com/v1/current.json?key=123d678a6bd74c81b3f165334230110&q=${location}`,
+        url :`https://api.weatherapi.com/v1/current.json?key=123d678a6bd74c81b3f165334230110&q=${location}`,
         success :(data)=>{
             console.log(data);
             icon.attr("src",data.current.condition.icon);
