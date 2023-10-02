@@ -136,16 +136,18 @@ div input:checked+label+.background {
 }
 
 .divmap {
-    margin-left: 701px;
-    margin-top: 65px;
-    width: 755px;
+    margin-left: 68px;
+    margin-top: -342px;
+    margin-bottom: 416px;
+    width: 1377px;
     height: 653px;
+    border-radius: 30px;
 }
 
 .divweatherdetails {
-    width: 544px;
+    width: 592px;
     height: 587px;
-    background-color: #ffffff70;
+    background-color: #4f4b4b94;
     margin-left: 86px;
     margin-bottom: -716px;
     margin-top: 332px;
@@ -241,9 +243,10 @@ div input:checked+label+.background {
     width: 219px;
     height: 280px;
     margin-left: 83px;
-    margin-top: 170px;
+    margin-top: 915px;
     background-color: #aaa8a892;
     margin-bottom: 300px;
+    border-radius: 30px;
 
 }
 
@@ -254,15 +257,17 @@ div input:checked+label+.background {
     margin-top: -580px;
     background-color: #aaa8a892;
     margin-bottom: -561px;
+    border-radius: 30px;
 }
 
 .weather3 {
     width: 219px;
     height: 280px;
     margin-left: 645px;
-    margin-top: 284px;
+    margin-top: 282px;
     background-color: #aaa8a892;
     margin-bottom: 300px;
+    border-radius: 30px;
 }
 
 .weather4 {
@@ -272,6 +277,7 @@ div input:checked+label+.background {
     margin-top: -579px;
     background-color: #aaa8a892;
     margin-bottom: 300px;
+    border-radius: 30px;
 }
 
 .weather5 {
@@ -281,6 +287,7 @@ div input:checked+label+.background {
     margin-top: -580px;
     background-color: #aaa8a892;
     margin-bottom: 591px;
+    border-radius: 30px;
 }
 
 .location-search{
@@ -294,10 +301,10 @@ div input:checked+label+.background {
 /* //////////////////////////////////////////// */
 
 .content2{
-    position: relative;
-    margin-left: 351px;
+    position: absolute;
+    margin-left: 571px;
     margin-bottom: -392px;
-    margin-top: 324px;
+    margin-top: -327px;
 }
 
 .content2 h2{
@@ -358,13 +365,16 @@ footer a {
     height: 38px;
 }
 .weather-image1 {
-    margin-left: 229px;
-    margin-top: 32px;
-    width: 341px;
-    height: 368px;
+    margin-left: 293px;
+    margin-top: -21px;
+    width: 253px;
+    height: 210px;
 }
 .footer {
-    margin-top: 30px;
+    position: absolute;
+    margin-top: -36px;
+    width: 100%;
+    height: 298px;
 }
 .locationName {
     margin-top: -20px;
@@ -372,16 +382,70 @@ footer a {
     color: #27ff68;
 }
 .citytext {
-    margin-top: -532px;
-    margin-left: 20px;
+    margin-top: -109px;
+    margin-left: 58px;
     color: #4ed262;
-    font-size: 63px;
+    font-size: 46px;
 }
 .temptxt {
-    margin-left: 10px;
-    margin-top: 10px;
-    font-size: 40px;
+    position: absolute;
+    margin-left: 243px;
+    margin-top: 79px;
+    color: #ffffff;
 }
+.cloudSituation {
+    margin-left: 357px;
+    margin-top: -48px;
+    color: #2196F3;
+}
+.windl {
+    position: relative;
+    margin-left: 123px;
+    margin-top: 255px;
+    color: #ffffff;
+}
+.wind {
+    position: relative;
+    margin-left: 243px;
+    margin-top: -43px;
+    color: #ffffff;
+}
+.humidityl {
+    position: absolute;
+    margin-left: 71px;
+    margin-top: 161px;
+    color: #ffffff;
+}
+.humidity {
+    position: absolute;
+    margin-left: 241px;
+    margin-top: 164px;
+    color: #ffffff;
+}
+.templ {
+    position: absolute;
+    margin-left: 26px;
+    margin-top: 77px;
+    color: #ffffff;
+}
+.province {
+    position: absolute;
+    margin-left: 19px;
+    margin-top: -440px;
+    color: #ffffff;
+}
+.weather1Img {
+    width: 122px;
+    height: 97px;
+    margin-left: 48px;
+    margin-top: 5px;
+}
+.date1 {
+    text-align: center;
+    margin-top: 5px;
+    color: #d8860b;
+}
+
 
 
 

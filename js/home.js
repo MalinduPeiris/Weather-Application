@@ -15,11 +15,13 @@ document.getElementById("btn-search").addEventListener("click",(e)=>{
     serchLocation(location);
 })
 let icon=$("#icon");
+let cloud=$("#cloud");
 let temp=$("#tempText");
-let locationName=$("#locationName");
-let country =$("#country");
-let city = $("#city");
+let city=$("#city");
 let humidity =$("#humiditytxt");
+let wind=$("#windtxtt");
+let province=$("#province");
+
 
 function serchLocation(location){
   
@@ -32,10 +34,11 @@ function serchLocation(location){
             console.log(data);
             icon.attr("src",data.current.condition.icon);
             temp.text(data.current.temp_c+"°C");
-            locationName.text(data.location.tz_id);
-            country.text(data.location.country);
             city.text(data.location.name);
-
+            humidity.text(data.current.humidity+" %");
+            wind.text(data.current.wind_kph+"  KP/H");
+            cloud.text(data.current.condition.text);
+            province.text(data.location.region);
         }
     })
 }
